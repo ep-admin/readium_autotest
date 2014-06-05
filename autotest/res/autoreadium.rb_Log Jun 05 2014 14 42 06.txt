@@ -1,0 +1,11 @@
+			
+OK	Opened book 	(1) Tiny EPUB 3	
+OK	Go to page 	2	
+OK	Expected Text	FOUND in the page	Sed ut perspiciatis
+			
+OK	Opened book 	(1) Tiny EPUB 3	
+OK	Go to TOC	Chapter 1	
+OK	Expected Text	FOUND in the page	Sed ut perspiciatis unde omnis
+			
+OK	Opened book 	(1) Tiny EPUB 3	
+OK	Go to TOC	Chapter 2	
