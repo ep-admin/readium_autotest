@@ -102,14 +102,14 @@ class BrowserViewer
 	end
 	
 	def goto_nextpage()
-		b= @browser.div(:id, "reading-area").button(:id, "next-page-btn")
+		b= @browser.div(:id, "reading-area").button(:id, "right-page-btn")
 		b.wait_until_present
 		b.click
 	end
 
 
 	def goto_previouspage()
-		@browser.div(:id, "reading-area").button(:id, "previous-page-btn").click
+		@browser.div(:id, "reading-area").button(:id, "left-page-btn").click
 	end
 
 	#~ Toggle with Thumbnail view.
