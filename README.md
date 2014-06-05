@@ -11,7 +11,8 @@ source ~/.rvm/scripts/rvm
  *$ ruby –v*. 
 Just in case the version is updated to the latest ruby version, in order to run this autotest type we need 1.9.3. So, so to use this version: 
 *$ rvm use 1.9.3*
-###Step 2:#####Install the required gemsBefore we install the gems, you need to make sure that you have installed the **command line developer tools**. You can do this manually or to install, type to Terminal:*$ git –-version*. Click ‘install’ on the popup that appears asking you to install the command line developer tools**To install the gems go to Terminal and execute:** 
+###Step 2:#####Install the required gems
+Before we install the gems, you need to make sure that you have installed the **command line developer tools**. You can do this manually or to install, type to Terminal:*$ xcode-select --install*. Click ‘install’ on the popup that appears asking you to install the command line developer tools**To install the gems go to Terminal and execute:** 
 *$ gem install watir-webdriver 0.6.8**$ sudo gem install selenium-webdriver --no-ri*
 *$ gem install rubyXL 2.5.1*
 *$ gem install nokogiri 1.6.2.rc1*
